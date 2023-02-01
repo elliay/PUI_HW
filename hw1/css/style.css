@@ -1,0 +1,133 @@
+/* ==============================================
+Header
+============================================== */
+
+.logo{
+    width: 1200px;
+    height: 225px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.logo-image{
+    width: 250px;
+    height: 250px;
+}
+
+.nav-bar{
+    width: 1200px;
+    height: 150px;
+    margin-left:auto;
+    margin-right:auto;
+    border-width: 5px 0px 0px 0px;
+    border-style: solid;
+    border-top-color: green;
+    background-color:blueviolet;
+}
+
+/* ============================================
+Gallery
+============================================ */
+
+.gallery-description{
+    text-align:center;
+    margin:10px;
+}
+
+.gallery-product{
+    width: 280px;
+    height: 320px;
+    margin-bottom: 40px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:2px;
+}
+.gallery-product:hover{
+    background-color: yellow;
+}
+
+.product-image{
+    width: 250px;
+    height: 250px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    margin-bottom:8px;
+}
+
+.product-title{
+    margin-left:12px;
+}
+
+.product-price{
+    margin-left:12px;
+}
+/* 
+=============================================
+Cart
+============================================= */
+p{
+    text-align:center;
+}
+
+.cart-title{
+    text-align:center;
+    margin:10px;
+    font-size:x-large;
+}
+
+.remove{
+    text-align:center;
+    font-size: x-small
+}
+
+.cart-product{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    margin-left:auto;
+    margin-right:auto;
+
+    padding:2px;
+}
+
+.cart-product-image{
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    margin-bottom:8px;
+}
+
+
+.cart-product-price{
+    text-align:center;
+    font-size:larger
+}
+
+.cart-footer{
+    width: 600px;
+    height: 150px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px;
+    border-width: 5px 0px 0px 0px;
+    border-style: solid;
+    border-top-color: green;
+    background-color:blueviolet;
+}
+
+.checkout-button{
+    width:100px;
+    height:30px;
+    cursor:pointer;
+}
