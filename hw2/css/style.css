@@ -2,11 +2,19 @@
 Header
 ============================================== */
 
-.logo{
-    width: 1200px;
-    height: 255;
+.header{
+    display: flex;
     margin-left:auto;
     margin-right:auto;
+    width:1200px;
+}
+
+.logo{
+    width: 255px;
+    height: 255px;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
     /* background-color: purple; */
 }
 
@@ -16,16 +24,23 @@ Header
 }
 
 .nav-bar{
-    text-align:center;
-    width: 1150px;
+    text-align:right;
+    width: auto;
     height: 100px;
     margin-left:auto;
     margin-right:auto;
-    padding: 20px;
-    border-width: 5px 0px 0px 0px;
+    padding-top: 20px;
+    border-width: 0px 0px 5px 0px;
     border-style: solid;
     border-top-color: black;
-    /* background-color:blueviolet; */
+    /* background-color:aquamarine; */
+    display: flex;
+}
+
+.space{
+    width:550px;
+    height:100px;
+    /* background-color:brown; */
 }
 
 .nav-button{
@@ -43,6 +58,20 @@ Header
 
 .nav-selection{
     margin:15px;
+    /* background-color:chartreuse; */
+    text-align:center;
+    padding:20px;
+}
+
+.page-title-container{
+    width: auto;
+}
+
+.title{
+    text-align:left;
+    padding-top:50px;
+    font-size:x-large;
+    /* background-color:crimson; */
 }
 
 /* ============================================
@@ -54,7 +83,15 @@ Gallery
     text-align:center;
     margin-left:auto;
     margin-right:auto;
+    margin-top:50px;
+    /* background-color:aquamarine; */
 }
+
+.row{
+    display:flex;
+    /* background-color:darkgoldenrod; */
+}
+
 
 .gallery-product{
     width: 280px;
@@ -100,27 +137,50 @@ Gallery
 Cart
 ============================================= */
 p{
-    text-align:center;
+    text-align:left;
 }
 
-.title{
-    text-align:center;
-    margin:10px;
-    font-size:x-large;
+.cart-image-container{
+    /* background-color:darksalmon; */
+    width:105px;
+    flex-grow:1;
+    flex-shrink:0;
+}
+
+.cart-buffer{
+    width: 315px;
+}
+
+.cart{
+    display:flex;
+    /* background-color:deeppink; */
+    width:1200px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .remove{
-    text-align:center;
+    text-align:left;
     font-size: x-small
 }
 
+.cart-product-description{
+    /* background-color:darkseagreen; */
+    width:300px;
+    flex-grow:1;
+    flex-shrink:0;
+    text-align:left;
+}
+
 .cart-product{
-    width: 250px;
-    height: 250px;
+    width: auto;
+    height: 150px;
     margin-bottom: 20px;
     margin-left:auto;
     margin-right:auto;
-
+    display:flex;
+    flex-grow:1;
+    /* background-color:aqua; */
     padding:2px;
 }
 
@@ -131,7 +191,7 @@ p{
     border-color: black;
     border-width: 3px;
     display: block;
-    margin-left:auto;
+    /* margin-left:auto; */
     margin-right:auto;
     margin-top:10px;
     margin-bottom:8px;
@@ -139,20 +199,43 @@ p{
 
 
 .cart-product-price{
+    text-align:right;
+    font-size:larger;
+    width:75px;
+    /* background-color:deeppink; */
+}
+
+.cart-total-price{
+    display:flex;
+    margin-bottom:20px;
+}
+
+.total{
+    /* background-color:aquamarine; */
+    width:auto;
+    flex-grow:1;
+    font-size:larger;
     text-align:center;
-    font-size:larger
+}
+
+.total-price{
+    /* background-color:rgb(101, 226, 43); */
+    width:75px;
+    text-align:right;
+    font-size:larger;
 }
 
 .cart-footer{
-    text-align:center;
+    text-align:right;
     width: 600px;
     height: 150px;
     margin-left:auto;
     margin-right:auto;
-    padding: 20px;
+    padding-top: 20px;
     border-width: 5px 0px 0px 0px;
     border-style: solid;
     border-top-color: black;
+    /* background-color:deepskyblue; */
 }
 
 .checkout-button{
@@ -166,10 +249,23 @@ p{
 /* ==================================
 Details
 ================================== */
+
+.product-details{
+    /* background-color:darkolivegreen; */
+    display:flex;
+    width:1200px;
+}
+
 .details{
     width:1200px;
     margin-left:auto;
     margin-right:auto;
+}
+
+.details-image-container{
+    /* background-color:darkmagenta; */
+    margin-left:auto;
+    margin-right:10px;
 }
 
 
@@ -182,14 +278,14 @@ Details
     display: block;
     margin-left:auto;
     margin-right:auto;
-    margin-top:25px;
-    margin-bottom:8px;
+    /* margin-top:25px;
+    margin-bottom:8px; */
 }
 
 .product-details-info{
     width: 200px;
     height:auto;
-    margin-left:auto;
+    margin-left:10px;
     margin-right:auto;
     margin-bottom:30px;
     /* background-color: aquamarine; */
