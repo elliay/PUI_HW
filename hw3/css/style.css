@@ -310,6 +310,11 @@ Details
     cursor:pointer;
 }
 
+.glazingOptions{
+    width:200px;
+    cursor:pointer;
+}
+
 .details-footer{
     display:flex;
     margin-top: 30px;

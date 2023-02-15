@@ -68,11 +68,15 @@
                     <div class="drop-down-desc">
                         Pack size:
                     </div>
-                    <select class="drop-down-menu">
+                    <!-- <select class="drop-down-menu">
                         <option value="1">1</option>
                         <option value="3">3</option>
                         <option value="6">6</option>
                         <option value="12">12</option>
+                    </select> -->
+                    <select id="sizeOptions"
+                            onchange="sizeChange(this)">
+                            <!-- <option value="0">Keep original</option> -->
                     </select>
                 </div>
                 <div class="details-footer">
