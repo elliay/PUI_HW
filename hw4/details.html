@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>HW 4</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/rollsData.js"></script>
+    <script defer src="js/price.js"></script>
+  </head>
+
+
+  <body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a href = "./index.html" >
+                    <button class="nav-button"><img class="logo-image" src="logo/logo-01.svg" /></button>
+                </a>
+            </div>
+            <div class="page-title-container">
+                <div class="nav-bar">
+                    <div class="space">
+
+                    </div>
+                    <div class = "nav-selection">
+                        <a href = "./index.html" >
+                            <button class="nav-button-selected">PRODUCTS</button>
+                        </a>
+                    </div>
+                    <div class="nav-selection">
+                        <a href = "./Cart.html" >
+                            <button class="nav-button">CART</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="details-title">
+                    Original cinnamon roll
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="details">
+        <div class="product-details">
+            <div class="details-image-container">
+                <img class="product-details-image" src="" />
+            </div>
+            <div class="product-details-info">
+                <p class="details-desc">
+                    Customize our delicious, hand-made cinammon roll to your liking!
+                </p>
+                <div class="drop-down">
+                    <div class="drop-down-desc">
+                        Glazing:
+                    </div>
+                    <select id="glazingOptions"
+                            onchange="glazingChange(this)">
+                    </select>
+                </div>
+                <div class="drop-down">
+                    <div class="drop-down-desc">
+                        Pack size:
+                    </div>
+                    <select id="sizeOptions"
+                            onchange="sizeChange(this)">
+                    </select>
+                </div>
+                <div class="details-footer">
+                    <div class="details-price">
+                        $2.49
+                    </div>
+                    <div class="add-to-cart">
+                        <button class="add-to-cart-button" onclick="addToCart()">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
