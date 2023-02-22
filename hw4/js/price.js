@@ -131,5 +131,5 @@ function addToCart(){
   console.log(cart);
 }
 
-
+console.log("What version is this lol");
 displayNewPrice(allGlazingChanges[0],allSizeChanges[0]);
