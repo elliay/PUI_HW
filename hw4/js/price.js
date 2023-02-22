@@ -55,6 +55,8 @@ let sizeIndex = 0;
    * @param glazeChange A change object containing a name and a change amount.
    */
   function displayNewPrice(glazeChange, sizeChange) {
+    console.log(glazeChange);
+    console.log(sizeChange);
     let newprice = ((glazeChange.change + basePrice) * sizeChange.change).toFixed(2);
     console.log("$" + newprice);
     price.innerText = "$" + newprice;
