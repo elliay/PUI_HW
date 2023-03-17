@@ -1,6 +1,7 @@
 
 let cart = [];
 
+
 // First, we get the query string from the URL. This is the list of parameters
 // that begins with a question mark. (These are known as "search parameters")
 const queryString = window.location.search;

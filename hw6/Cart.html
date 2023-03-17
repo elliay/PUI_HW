@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>HW 1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/rollsData.js"></script>
+    <script defer src="js/cart.js"></script>
+  </head>
+
+
+  <body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a href = "./index.html" >
+                    <button class="nav-button"><img class="logo-image" src="logo/logo-01.svg" /></button>
+                </a>
+            </div>
+            <div class="page-title-container">
+                <div class="nav-bar">
+                    <div class="space">
+
+                    </div>
+                    <div class = "nav-selection">
+                        <a href = "./index.html" >
+                            <button class="nav-button">PRODUCTS</button>
+                        </a>
+                    </div>
+                    <div class="nav-selection">
+                        <a href = "./Cart.html" >
+                            <button class="nav-button-selected">CART</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="title">
+                    Shopping cart
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="cart">
+        <div class="cart-contents">
+            <template>
+                <div class="cart-product">
+                    <div class="cart-image-container">
+                        <img class="cart-product-image" src="" />
+                        <div class="remove" onclick="removeFromCart(this)">
+                            Remove
+                        </div>
+                    </div>  
+                    <div class="cart-product-description">
+                        <div class="cart-product-name">
+                        </div>
+                        <div class="cart-product-glazing">
+                            Glazing:
+                        </div>
+                        <div class="cart-product-size">
+                            Pack Size: 
+                        </div>
+                        <!-- <p>Original Cinnamon Roll <br>
+                            Glazing: Keep original <br>
+                            Pack Size: 1
+                        </p> -->
+                    </div>
+                    <div class="cart-product-price">
+                    </div>
+                </div>
+            </template>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total-price">
+                <div class="total">
+                    Total:
+                </div>
+                <div class="total-price">
+                    $0.00
+                </div>
+            </div>
+            <button class="checkout-button">Checkout</button>
+         </div>
+        
+    </div>
+    
+  </body>
+</html>
