@@ -15,4 +15,8 @@ Deployed website: elliay.github.io/PUI_HW/hw4/index.html
 HW5:
 Deployed website: elliay.github.io/PUI_HW/hw5/index.html
 
+HW6:
+Deployed website: elliay.github.io/PUI_HW/hw6/index.html
+
+
 
