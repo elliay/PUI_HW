@@ -2,10 +2,10 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Collagify</title>
+        <title>My Spotify Profile</title>
         <link rel="stylesheet" href="css/style.css">
-        <script src="js/script.js" type="module"></script>
-        <script defer src="js/main.js"></script>
+        <script src="src/script.js" type="module"></script>
+        <script defer src="src/main.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
@@ -32,12 +32,12 @@
         <ol class="top-tracks">
         </ol>   
         </div>
-        <div>
-
+        <div class="color-change">
+            <label for="colorInput">Enter a color code to change collage color:</label>
+            <input type="text" id="colorInput" placeholder="FFFFFF">
+            <button onclick="changeBackgroundColor()">Save</button>   
         </div>
-        <label for="colorInput">Enter a color code to change collage color:</label>
-        <input type="text" id="colorInput" placeholder="FFFFFF">
-        <button onclick="changeBackgroundColor()">Save</button>   
+        
       </div>
     </div>
     </body>
