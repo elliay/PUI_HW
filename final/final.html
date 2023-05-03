@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My Spotify Profile</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="src/script.js" type="module"></script>
+        <script defer src="src/main.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+      <div class="heading">
+        Click on any image in the collage to listen!
+      </div>
+      
+      <div class="content">
+
+      <div id="album-covers">
+        <template>
+            <div class="album-image">
+                <img class="image" src="" alt= ""/>
+            </div>
+        </template>
+      </div>
+
+      <div class="normal">
+
+        <iframe class="embed-track" style="border-radius:12px" src="" width="100%" height="100%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        
+        <div id="tracks">
+        <h2>Your top tracks are: </h2>
+        <ol class="top-tracks">
+        </ol>   
+        </div>
+        <div>
+
+        </div>
+        <label for="colorInput">Enter a color code to change collage color:</label>
+        <input type="text" id="colorInput" placeholder="FFFFFF">
+        <button onclick="changeBackgroundColor()">Save</button>   
+      </div>
+    </div>
+    </body>
+</html>
+
+ 

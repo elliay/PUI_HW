@@ -1,0 +1,28 @@
+body {
+    background-image: url('../img/home.svg');
+    background-size: cover;
+    text-align:center;
+    padding-top:35%;
+}
+
+.btn{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@media (max-width:450px){
+    body {
+        background-image: url('../img/home-mobile.svg');
+        background-size: 100%;
+        text-align:center;
+        padding-top:95%;
+    }
+    .btn{
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .login-btn{
+        width:50%;
+        height:50%;
+    }
+}
