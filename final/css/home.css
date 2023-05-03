@@ -1,5 +1,5 @@
 body {
-    background-image: url('../img/home.svg');
+    background-image: url('../assets/home.svg');
     background-size: cover;
     text-align:center;
     padding-top:35%;
@@ -12,7 +12,7 @@ body {
 
 @media (max-width:450px){
     body {
-        background-image: url('../img/home-mobile.svg');
+        background-image: url('../assets/home-mobile.svg');
         background-size: 100%;
         text-align:center;
         padding-top:95%;
